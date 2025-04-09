@@ -15,6 +15,8 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/curriculo.png" type="image/x-icon" />
+
+    <script src="menu.js" defer></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -43,12 +45,12 @@
         </div>
         <!--btn-contato-->
 
-        <div class="btn-abrir-menu">
+        <div class="btn-abrir-menu" id="btn-menu">
           <i class="bi bi-list"></i>
         </div>
         <!-- btn-abrir-menu -->
 
-        <div class="menu-mobile">
+        <div class="menu-mobile" id="menu-mobile">
           <div class="btn-fechar">
             <i class="bi bi-x-lg"></i>
           </div>
@@ -60,13 +62,13 @@
               <li><a href="#especialidades">Especialidade</a></li>
               <li><a href="#sobre">Sobre</a></li>
               <li><a href="#portfolio">Projetos</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="#formulario">Contato</a></li>
             </ul>
           </nav>
         </div>
         <!-- menu-mobile -->
 
-        <div class="overlay-menu"></div>
+        <div class="overlay-menu" id="overlay-menu"></div>
         <!-- overlay-menu -->
       </div>
       <!--interface -->
@@ -241,7 +243,7 @@
       </section>
       <!--portfolio -->
 
-      <section class="formulario">
+      <section class="formulario" id="formulario">
         <div class="interface">
           <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
