@@ -147,6 +147,10 @@ header nav.menu-desktop ul li {
   display: none;
 }
 
+.btn-abrir-menu {
+  display: none;
+}
+
 /* Estilo do topo do site  */
 
 section.topo-do-site {
@@ -489,5 +493,9 @@ footer .line-footer p a:hover {
 
   footer .line-footer {
     text-align: center;
+  }
+
+  .btn-abrir-menu {
+    display: block;
   }
 }
