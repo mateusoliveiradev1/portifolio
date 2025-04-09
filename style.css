@@ -6,6 +6,10 @@
   font-family: "Poppins", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   height: 100vh;
@@ -335,7 +339,7 @@ footer .line-footer p a:hover {
 @media screen and (max-width: 1020px) {
   /* GERAl */
   .flex {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   h2.titulo {
